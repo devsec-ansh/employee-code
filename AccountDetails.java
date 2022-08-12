@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 
 public class AccountDetails {
-	private String Name;
 	private String AccType;
 	private String AccountNo;
 	private long Balance;
@@ -13,7 +12,6 @@ public class AccountDetails {
 	
 	public void newAccount() {
 		AccountNo=cin.next();
-		Name=cin.next();
 		AccType=cin.next();
 		Balance=cin.nextLong();
 	}
